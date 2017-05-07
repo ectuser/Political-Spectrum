@@ -1,0 +1,262 @@
+@import url(reset.css);
+@font-face {
+    font-family: Ubuntu-B; /* Имя шрифта */
+    src: url(../fonts/Ubuntu-B.ttf); /* Путь к файлу со шрифтом */
+}
+
+.menu {
+    position: fixed; /* Фиксированное положение */
+    right: 50px; /* Расстояние от правого края окна браузера */
+    top: 90%; /* Расстояние сверху */
+   }
+
+#back_1 {
+	background-color: #cecece;
+	height: 720px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#main {
+	width: 700px;
+	high: 700px; 
+	line-height: 0;
+	border: none;
+}
+
+#bolshevism {
+	height: 300px;
+	background-color: #b30106;
+}
+
+.text_1 {
+	width: 1320px;
+	padding-top: 70px;
+	margin: 0px auto; 
+	text-align: left;
+	
+}
+
+.head {
+	font: bold 40px Ubuntu-B;
+}
+.line {
+	width: 500px;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+.descriprion{
+	font: 20px Ubuntu-B;
+}
+
+.text_2 {
+	width: 1320px;
+	padding-top: 70px;
+	margin: 0px auto;
+	text-align: right;
+}
+
+#marxism {
+	height: 300px;
+	background-color: #fe0000;
+}
+.authoritarian {
+	color: #ffffff;
+}
+
+#socialism {
+	background-color: #ff3e3f;
+}
+
+#maosism {
+	background-color: #840000;
+}
+
+#authoritarian_socialism {
+	background-color: #d72928;
+}
+
+#national_bolshevism {
+	background-color: #4c0c04;
+}
+
+#red_conservatism {
+	background-color: #850623;
+}
+
+#statism {
+	background-color: #5e171d;
+}
+
+#left_nationalism {
+	background-color: #cc373b;
+}
+
+#national_socialism {
+	background-color: #4b2707;
+}
+
+#nationalism {
+	background-color: #8e4713;
+}
+
+#fascism {
+	background-color: #262626;
+}
+
+#traditionalism {
+	background-color: #00032f;
+}
+
+#national_conservatism {
+	background-color: #00047f;
+}
+
+#social_conservatism {
+	background-color: #56093f;
+}
+
+#conservatism {
+	background-color: #0024fc;
+}
+
+#national_democracy {
+	background-color: #464d5f;
+}
+
+#neoconservatism {
+	background-color: #4357ad;
+}
+
+#social_democracy {
+	background-color: #cf5f6d;
+}
+
+#christian_democracy {
+	background-color: #b5b5b5;
+}
+
+#national_liberalism {
+	background-color: #707ab5;
+}
+
+#liberal_conservatism {
+	background-color: #758ffd;
+}
+
+#democratic_socialism {
+	background-color: #ff716f;
+}
+
+#progressivism {
+	background-color: #ff9b9b;
+}
+
+#social_liberalism {
+	background-color: #fbdfdc;
+}
+
+#conservative_liberalism {
+	background-color: #c9d0e1;
+}
+
+#neoliberalism {
+	background-color: #acd459;
+}
+
+#libertarian_conservatism {
+	background-color: #a69a24;
+}
+
+#libertarianism {
+	background-color: #938c17;
+}
+
+#utopian_socialism {
+	background-color: #eb3913;
+}
+
+#libertary_socialism {
+	background-color: #dd325c;
+}
+
+#left_activism {
+	background-color: #71f9f5;
+}
+
+#right_activism {
+	background-color: #71f9f5;
+}
+
+#classic_liberalism {
+	background-color: #bea41a;
+}
+
+#agorism {
+	background-color: #bac119;
+}
+
+#minarchism {
+	background-color: #f4de4a;
+}
+
+#anarcho_communism {
+	background-color: #7d0101;
+}
+
+#anarcho_syndicalism {
+	background-color: #a31f1a;
+}
+
+#mutualism {
+	background-color: #ff8057;
+}
+
+#standart_anarchism {
+	background-color: #dcab7d;
+}
+
+#anarcho_individualism {
+	background-color: #fc9143;
+}
+
+#anarcho_capitalism {
+	background-color: #efda0a;
+}
+
+#shtrasserism {
+	background-color: #6c3714;
+}
+
+#hat {
+	background-color: #FFC000;
+}
+
+.fa {
+	padding-right: 10px;
+}
+
+#hat_1 {
+	width: 1320px;
+	padding-top: 70px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#descriprion_1{
+	font: 20px Ubuntu-B;
+	text-align: left;
+	width: 874px;
+	margin: 0px auto;
+}
+.link a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.link a:hover {
+	text-decoration: underline; /* подчеркивание в момент навода на ссылку */
+}
+.delay {
+	padding-top: 15px; 
+}
