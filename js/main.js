@@ -5,6 +5,13 @@ $(document).on('click', 'area', function(event){
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 500);
 });
+$(document).on('click', 'a', function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+});
 
 // stores the device context of the canvas we use to draw the outlines
 // initialized in myInit, used in myHover and myLeave
