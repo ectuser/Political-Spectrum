@@ -8,7 +8,7 @@
     position: fixed; /* Фиксированное положение */
     right: 50px; /* Расстояние от правого края окна браузера */
     top: 90%; /* Расстояние сверху */
-   }
+}
 
 #back_1 {
 	background-color: #cecece;
@@ -30,7 +30,7 @@
 }
 
 .text_1 {
-	width: 1320px;
+	width: 1200px;
 	padding-top: 70px;
 	margin: 0px auto; 
 	text-align: left;
@@ -51,7 +51,7 @@
 }
 
 .text_2 {
-	width: 1320px;
+	width: 1200px;
 	padding-top: 70px;
 	margin: 0px auto;
 	text-align: right;
@@ -72,50 +72,54 @@
 
 #maosism {
 	background-color: #840000;
+	height: 300px;
 }
 
 #authoritarian_socialism {
 	background-color: #d72928;
+	height: 300px;
 }
 
 #national_bolshevism {
 	background-color: #4c0c04;
+	height: 300px;
 }
 
 #red_conservatism {
-	background-color: #850623;
+	background-color: #850623;height: 300px;
 }
 
 #statism {
 	background-color: #5e171d;
+	height: 300px;
 }
 
 #left_nationalism {
-	background-color: #cc373b;
+	background-color: #cc373b;height: 300px;
 }
 
 #national_socialism {
-	background-color: #4b2707;
+	background-color: #4b2707;height: 300px;
 }
 
 #nationalism {
-	background-color: #8e4713;
+	background-color: #8e4713;height: 400px;
 }
 
 #fascism {
-	background-color: #262626;
+	background-color: #262626;height: 300px;
 }
 
 #traditionalism {
-	background-color: #00032f;
+	background-color: #00032f;height: 300px;
 }
 
 #national_conservatism {
-	background-color: #00047f;
+	background-color: #00047f;height: 300px;
 }
 
 #social_conservatism {
-	background-color: #56093f;
+	background-color: #56093f;height: 300px;
 }
 
 #conservatism {
@@ -226,8 +230,8 @@
 	background-color: #efda0a;
 }
 
-#shtrasserism {
-	background-color: #6c3714;
+#strasserism {
+	background-color: #6c3714;height: 300px;
 }
 
 #hat {
