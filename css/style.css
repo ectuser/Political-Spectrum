@@ -159,7 +159,7 @@
 }
 
 #social_liberalism {
-	background-color: #fbdfdc;height: 400px;
+	background-color: #feb8a4;height: 400px;
 }
 
 #conservative_liberalism {
@@ -186,14 +186,6 @@
 	background-color: #dd325c;height: 400px;
 }
 
-#left_activism {
-	background-color: #71f9f5;
-}
-
-#right_activism {
-	background-color: #71f9f5;
-}
-
 #classic_liberalism {
 	background-color: #bea41a;height: 330px;
 }
@@ -218,8 +210,8 @@
 	background-color: #ff8057;height: 400px;
 }
 
-#standart_anarchism {
-	background-color: #dcab7d;
+#anarchism {
+	background-color: #dcab7d;height: 300px;
 }
 
 #anarcho_individualism {
@@ -236,6 +228,19 @@
 
 #hat {
 	background-color: #FFC000;
+}
+
+#classic_green {
+	background-color: #64ac4c;height: 300px;
+}
+
+#liberal_democracy {
+	background-color: #72fafa;
+	height: 400px;
+}
+
+#national_anarchism {
+	background-color: #f0b6b6;height: 400px;
 }
 
 .fa {
@@ -258,6 +263,7 @@
 .link a {
 	color: #ffffff;
 	text-decoration: none;
+	font: 20px Ubuntu-B;
 }
 .link a:hover {
 	text-decoration: underline; /* подчеркивание в момент навода на ссылку */
