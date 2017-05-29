@@ -5,13 +5,6 @@ $(document).on('click', 'area', function(event){
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 500);
 });
-$(document).on('click', '.menu', function(event){
-    event.preventDefault();
-
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
-});
 
 // stores the device context of the canvas we use to draw the outlines
 // initialized in myInit, used in myHover and myLeave
@@ -94,7 +87,7 @@ function myInit()
     imgParent.appendChild(can);
 
     // place the canvas in front of the image
-    can.style.zIndex = -1;
+    can.style.zIndex = 1;
     // position it over the image
     can.style.left = x+'px';
     can.style.top = y+'px';
@@ -107,10 +100,9 @@ function myInit()
     hdc = can.getContext('2d');
 
     // set the 'default' values for the colour/width of fill/stroke operations
-    hdc.fillStyle = 'red';
-    hdc.strokeStyle = 'red';
+    hdc.fillStyle = "rgba(230,236,247,0.5)";
+    hdc.strokeStyle = "rgba(230,236,247,0.5)";
     hdc.lineWidth = 4;
-    can.drawImage(img,0,0);
 }
 // $(document).ready(function() {
 // 	$(document).on('click', 'a', function(event){

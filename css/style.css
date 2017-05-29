@@ -19,7 +19,7 @@
 
 #main {
 	width: 700px;
-	high: 700px; 
+	height: 700px; 
 	line-height: 0;
 	border: none;
 }
@@ -270,4 +270,8 @@
 }
 .delay {
 	padding-top: 15px; 
+}
+#myCanvas {
+	position: absolute;
+	pointer-events:none;
 }
