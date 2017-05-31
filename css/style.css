@@ -4,11 +4,16 @@
     src: url(../fonts/Ubuntu-B.ttf); /* Путь к файлу со шрифтом */
 }
 
-.menu {
+#menu {
     position: fixed; /* Фиксированное положение */
     right: 50px; /* Расстояние от правого края окна браузера */
-    top: 90%; /* Расстояние сверху */
+    top: 80%; /* Расстояние сверху */ /*<div><a href="#picture"class="menu"><img src="images/buttom.png"/></a></div>*/
+	background: url(../images/buttom.png) no-repeat;
+	height: 70px;
+	width: 70px;
 }
+
+#menu:hover {background-image:url(../images/buttom_1.png);}
 
 #back_1 {
 	background-color: #cecece;
@@ -262,11 +267,11 @@
 }
 .link a {
 	color: #ffffff;
-	text-decoration: none;
+	/*text-decoration: none;*/
 	font: 20px Ubuntu-B;
 }
-.link a:hover {
-	text-decoration: underline; /* подчеркивание в момент навода на ссылку */
+/*.link a:hover {
+	text-decoration: underline; /* подчеркивание в момент навода на ссылку*/
 }
 .delay {
 	padding-top: 15px; 

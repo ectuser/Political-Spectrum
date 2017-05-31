@@ -5,7 +5,7 @@ $(document).on('click', 'area', function(event){
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 500);
 });
-$(document).on('click', '.menu', function(event){
+$(document).on('click', '#menu', function(event){
     event.preventDefault();
 
     $('html, body').animate({
@@ -36,6 +36,7 @@ function drawPoly(coOrdStr)
     }
     hdc.lineTo(mCoords[0], mCoords[1]);
     hdc.stroke();
+	hdc.fill();
 }
 
 function drawRect(coOrdStr)
@@ -109,7 +110,7 @@ function myInit()
     // set the 'default' values for the colour/width of fill/stroke operations
     hdc.fillStyle = "rgba(230,236,247,0.5)";
     hdc.strokeStyle = "rgba(230,236,247,0.5)";
-    hdc.lineWidth = 4;
+    hdc.lineWidth = 0;
 }
 // $(document).ready(function() {
 // 	$(document).on('click', 'a', function(event){
