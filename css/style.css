@@ -4,10 +4,62 @@
     src: url(../fonts/Ubuntu-B.ttf); /* Путь к файлу со шрифтом */
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait)  { body {
+	width: 1000px;
+} 
+#bolshevism {
+	height: 350px;
+	background-color: #b30106;
+}
+#national_socialism {
+	background-color: #4b2707;height: 350px;
+}
+#nationalism {
+	background-color: #8e4713;height: 450px;
+}
+#fascism {
+	background-color: #262626;height: 350px;
+}
+#neoconservatism {
+	background-color: #4357ad;height: 450px;
+}
+#christian_democracy {
+	background-color: #b5b5b5;height: 400px;
+}
+#national_liberalism {
+	background-color: #707ab5;height: 450px;
+}
+#libertarian_conservatism {
+	background-color: #a69a24;height: 450px;
+}
+#utopian_socialism {
+	background-color: #eb3913;height: 420px;
+}
+#liberal_democracy {
+	background-color: #72fafa;height: 450px;
+}
+#classic_green {
+	background-color: #64ac4c;height: 350px;
+}
+#national_anarchism {
+	background-color: #f0b6b6;height: 450px;
+}
+#classic_liberalism {
+	background-color: #bea41a;height: 370px;
+}
+.descriprion{
+	font: 35px Ubuntu-B;
+}
+.head {
+	font: bold 45px Ubuntu-B;
+	padding-bottom: 20px;
+}
+}
+
 #menu {
-    position: fixed; /* Фиксированное положение */
-    right: 50px; /* Расстояние от правого края окна браузера */
-    top: 80%; /* Расстояние сверху */ /*<div><a href="#picture"class="menu"><img src="images/buttom.png"/></a></div>*/
+    position: fixed;
+    right: 50px;
+    top: 80%;
 	background: url(../images/buttom.png) no-repeat;
 	height: 70px;
 	width: 70px;
@@ -18,7 +70,6 @@
 #back_1 {
 	background-color: #cecece;
 	height: 720px;
-	margin: 0px auto;
 	text-align: center;
 }
 
@@ -30,12 +81,12 @@
 }
 
 #bolshevism {
-	height: 300px;
+	height: 350px;
 	background-color: #b30106;
 }
 
 .text_1 {
-	width: 1200px;
+	width: 900px;
 	padding-top: 70px;
 	margin: 0px auto; 
 	text-align: left;
@@ -44,11 +95,7 @@
 
 .head {
 	font: bold 40px Ubuntu-B;
-}
-.line {
-	width: 500px;
-	padding-top: 10px; 
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 .descriprion{
@@ -56,7 +103,7 @@
 }
 
 .text_2 {
-	width: 1200px;
+	width: 900px;
 	padding-top: 70px;
 	margin: 0px auto;
 	text-align: right;
@@ -77,7 +124,7 @@
 
 #maosism {
 	background-color: #840000;
-	height: 300px;
+	height: 330px;
 }
 
 #authoritarian_socialism {
@@ -104,15 +151,15 @@
 }
 
 #national_socialism {
-	background-color: #4b2707;height: 300px;
+	background-color: #4b2707;height: 350px;
 }
 
 #nationalism {
-	background-color: #8e4713;height: 400px;
+	background-color: #8e4713;height: 450px;
 }
 
 #fascism {
-	background-color: #262626;height: 300px;
+	background-color: #262626;height: 350px;
 }
 
 #traditionalism {
@@ -120,7 +167,7 @@
 }
 
 #national_conservatism {
-	background-color: #00047f;height: 300px;
+	background-color: #00047f;height: 330px;
 }
 
 #social_conservatism {
@@ -128,7 +175,7 @@
 }
 
 #conservatism {
-	background-color: #0024fc;height: 400px;
+	background-color: #0024fc;height: 430px;
 }
 
 #national_democracy {
@@ -136,19 +183,19 @@
 }
 
 #neoconservatism {
-	background-color: #4357ad;height: 400px;
+	background-color: #4357ad;height: 450px;
 }
 
 #social_democracy {
-	background-color: #cf5f6d;height: 400px;
+	background-color: #cf5f6d;height: 420px;
 }
 
 #christian_democracy {
-	background-color: #b5b5b5;height: 350px;
+	background-color: #b5b5b5;height: 400px;
 }
 
 #national_liberalism {
-	background-color: #707ab5;height: 400px;
+	background-color: #707ab5;height: 440px;
 }
 
 #liberal_conservatism {
@@ -156,7 +203,7 @@
 }
 
 #democratic_socialism {
-	background-color: #ff716f;height: 400px;
+	background-color: #ff716f;height: 430px;
 }
 
 #progressivism {
@@ -168,15 +215,15 @@
 }
 
 #conservative_liberalism {
-	background-color: #c9d0e1;height: 300px;
+	background-color: #c9d0e1;height: 330px;
 }
 
 #neoliberalism {
-	background-color: #acd459;height: 330px;
+	background-color: #acd459;height: 350px;
 }
 
 #libertarian_conservatism {
-	background-color: #a69a24;height: 400px;
+	background-color: #a69a24;height: 450px;
 }
 
 #libertarianism {
@@ -184,7 +231,7 @@
 }
 
 #utopian_socialism {
-	background-color: #eb3913;height: 330px;
+	background-color: #eb3913;height: 380px;
 }
 
 #libertary_socialism {
@@ -192,7 +239,7 @@
 }
 
 #classic_liberalism {
-	background-color: #bea41a;height: 330px;
+	background-color: #bea41a;height: 390px;
 }
 
 #agorism {
@@ -200,7 +247,7 @@
 }
 
 #minarchism {
-	background-color: #f4de4a;height: 300px;
+	background-color: #f4de4a;height: 330px;
 }
 
 #anarcho_communism {
@@ -224,7 +271,7 @@
 }
 
 #anarcho_capitalism {
-	background-color: #efda0a;height: 250px;
+	background-color: #efda0a;height: 300px;
 }
 
 #strasserism {
@@ -236,16 +283,15 @@
 }
 
 #classic_green {
-	background-color: #64ac4c;height: 300px;
+	background-color: #64ac4c;height: 350px;
 }
 
 #liberal_democracy {
-	background-color: #72fafa;
-	height: 400px;
+	background-color: #72fafa;height: 450px;
 }
 
 #national_anarchism {
-	background-color: #f0b6b6;height: 400px;
+	background-color: #f0b6b6;height: 480px;
 }
 
 .fa {
@@ -253,7 +299,7 @@
 }
 
 #hat_1 {
-	width: 1320px;
+	width: 900px;
 	padding-top: 70px;
 	margin: 0px auto;
 	text-align: center;
@@ -262,7 +308,7 @@
 #descriprion_1{
 	font: 20px Ubuntu-B;
 	text-align: left;
-	width: 874px;
+	width: 824px;
 	margin: 0px auto;
 }
 .link a {
